@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | Ali Electro Traders</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .error-code {
+            font-size: 120px;
+            font-weight: 800;
+            color: #0033ad; /* Matching your logo blue */
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #1a1a1a;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 30px;
+            max-width: 400px;
+            line-height: 1.6;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .btn {
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background-color: #0033ad;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #002685;
+            transform: translateY(-2px);
+        }
+
+        .btn-outline {
+            border: 2px solid #0033ad;
+            color: #0033ad;
+        }
+
+        .btn-outline:hover {
+            background-color: #0033ad;
+            color: white;
+        }
+
+        /* Subtle background decoration */
+        .bg-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.05;
+            background-image: radial-gradient(#0033ad 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-pattern"></div>
+    <div class="container">
+        <div class="error-code">404</div>
+        <h1>Page Not Found</h1>
+        <p>The page you are looking for doesn't exist or has been moved. Let's get you back to business.</p>
+        
+        <div class="buttons">
+            <a href="/" class="btn btn-primary">Go to Homepage</a>
+        </div>
+    </div>
+</body>
+</html>
